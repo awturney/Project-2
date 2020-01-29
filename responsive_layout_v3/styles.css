@@ -1,0 +1,362 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1.5rem;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+body {
+  background-color: #fafafa;
+}
+
+footer {
+  border-top: solid 1px gray;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
+}
+
+.portfolio {
+  background-color: #ffffff;
+}
+
+.nav-link {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  color: black;
+  background-color: #ffffff;
+  margin-top: .5rem;
+  font-weight: bold;
+}
+
+a:hover {
+  color: red;
+}
+
+.main-title {
+  margin: 3rem;
+}
+
+.project p {
+  text-align: center;
+}
+
+.phone-email {
+  color: blue;
+  font-weight: bold;
+}
+
+.email {
+  margin-bottom: 4rem;
+}
+
+/* .bio {
+  display: flex;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.profile {
+  flex: 1;
+
+  max-width: 100%;
+}
+
+.bio-paragraph {
+  flex: 1;
+  margin-left: 1rem;
+} */
+
+.contact {
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+}
+
+h3 {
+  text-align: center;
+}
+
+.skills-img {
+  max-width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.marketing {
+  max-width: 100%;
+}
+
+.search {
+  max-width: 100%;
+}
+
+.travel {
+  max-width: 100%;
+}
+
+.map {
+  max-width: 100%;
+}
+
+.gallery {
+  max-width: 100%;
+}
+
+.calculator {
+  max-width: 100%
+}
+
+/* @media (min-width: 1024px) {
+  .marketing {
+    float: right;
+  }
+  .search {
+    float: left;
+  }
+} */
+
+.contact-info {
+  text-align: center;
+}
+
+.footer-name {
+  float: left;
+  padding-left: 1rem;
+}
+
+.footer-links {
+  float: right;
+}
+
+.contact-paragraph {
+  margin-bottom: 3rem;
+}
+
+.contact-paragraph, .bio-paragraph {
+  color: grey;
+}
+
+.footer-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  padding-right: 1rem;
+}
+
+@media (max-width: 767px) {
+  .footer-links .site-nav {
+    display: none;
+  }
+
+  #top {
+    text-align: center;
+  }
+  .nav-link {
+    padding: 0.5rem;
+    text-align: center;
+  }
+
+  .profile, .bio-paragraph {
+    display: block;
+  }
+
+  .profile {
+    width: 250px;
+    margin: auto;
+    display: block;
+    margin-top: 2rem;
+
+  }
+
+  .bio-paragraph {
+    text-align: center;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+  }
+
+  .projects {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    grid-template-columns: 1fr;
+  }
+
+.profile-container {
+    margin:auto;
+    padding: 1rem 2rem;
+}
+
+.project p {
+  padding-bottom: 2rem;
+  }
+}
+
+@media (min-width: 369px) {
+  .footer-links .page-nav {
+    display: none;
+  }
+}
+
+.main-title {
+  text-align: center;
+}
+
+.projects {
+  display: grid;
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .projects {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+  }
+  .nav-link {
+    display: inline-block;
+    margin-right: 3rem;
+  }
+  header nav {
+    margin:auto;
+    text-align: center;
+  }
+
+  #top {
+    text-align: center;
+    display: block;
+    padding-top: 3rem;
+  }
+
+  .profile {
+    float: right;
+    margin: 0rem 3rem 1rem 1rem;
+    width: 250px;
+    }
+.main-title {
+text-align: center;
+padding-top: 4rem;
+}
+
+  .bio-paragraph {
+    margin: 4rem 1rem 2rem 1rem;
+  }
+
+}
+
+
+@media (min-width: 1024px) {
+  .projects {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+  }
+
+  .nav-link {
+    display: inline-block;
+  }
+
+  .profile {
+    float: right;
+    margin-right: 2.5rem;
+    margin-left: 2rem;
+  }
+
+  #top {
+    display: inline-block;
+    padding-top: 1rem;
+    padding-left: 2.5rem;
+  }
+
+  header nav {
+    display: inline-block;
+    float: right;
+    padding-top: 2rem;
+  }
+
+  .nav-link {
+    margin-right: 2rem;
+  }
+
+  header nav::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .main-title {
+    padding-top: 4rem;
+  }
+
+  .bio-paragraph {
+    margin-left: 2.5rem;
+    margin-right: 2rem;
+  }
+}
+
+
+
+
+
+
+/* @media (min-width: 768px) {
+  .profile {
+    float: right;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bio-paragraph {
+  }
+} */
+
+/* .project {
+  display: inline-block;
+  min-width: 0;
+} */
+
+/* @media (max-width: 767px) {
+  .projects {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .project {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .projects {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .project {
+    width: 45%;
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .projects {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .project {
+    width: 30%;
+    margin-left: 1rem;
+    height: 22rem;
+  }
+} */
